@@ -11,4 +11,4 @@ This repository contains code to build the networks in "Deep Learning for Camera
 
 * rl-agent
 
-    Reinforcement agent
+    Implementation of the reinforcement agent
