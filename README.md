@@ -3,4 +3,4 @@ This repository contains code to build the networks in "Deep Learning for Camera
 
 * model_calibration.m 
 
-Matlab code to calibrate the model
+    Matlab code to calibrate the model given two images.
