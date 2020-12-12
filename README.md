@@ -4,3 +4,7 @@ This repository contains code to build the networks in "Deep Learning for Camera
 * model_calibration.m 
 
     Matlab code to calibrate the model given two images.
+
+* estimator_discriminator.py
+
+    Keras code to build the estimator and the discriminator.
