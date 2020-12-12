@@ -8,3 +8,7 @@ This repository contains code to build the networks in "Deep Learning for Camera
 * estimator_discriminator.py
 
     Keras code to build the estimator and the discriminator in the AF pipeline.
+
+* rl-agent
+
+    Reinforcement agent
