@@ -1,3 +1,11 @@
+% Qian Huang, Duke University
+% qian.huang140@duke.edu
+%
+% Main script to train reinforcement agent in 
+% "Deep Learning for Camera Autofocus" by Chengyu Wang,
+% Qian Huang, Ming Chengyu, Zhan Ma and David J. Brady.
+
+
 import torch
 
 from trainer import Trainer
