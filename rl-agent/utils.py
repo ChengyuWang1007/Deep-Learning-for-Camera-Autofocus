@@ -11,6 +11,7 @@ from dep2def import depth2defocus
 from functools import partial
 # from awnet import pwc_5x5_sigmoid_bilinear   # cm:import AWnet model
 # import pytorch_ssim
+import pixel_estimator_with_weights
 import cv2
 
 # # In[2]:

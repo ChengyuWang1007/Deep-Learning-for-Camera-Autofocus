@@ -125,7 +125,7 @@ class Trainer(object):
     def reset(self):
         h = [torch.zeros(1, self.batch_size, self.hidden_size).to(self.device),
                       torch.zeros(1, self.batch_size, self.hidden_size).to(self.device)]
-        l = torch.rand(self.batch_size, self.out_size).to(self.device)*2.0-1.0 #-0.5~0.5
+        l = torch.rand(self.batch_size, self.out_size).to(self.device)*2.0-1.0
         return h, l
       
             
@@ -231,7 +231,6 @@ class Trainer(object):
                         
                     last_af = af
                     h, mu, l, b, p = self.model(input_t, l, h)
-                    l = torch.zeros_like(l).to(self.device)
                     log_pi.append(p)
                     mus.append(mu)
                     locs.append(l)
@@ -348,7 +347,6 @@ class Trainer(object):
                 last_af = af
 
                 h, mu, l, b, p = self.model(input_t, l, h)
-                l = torch.zeros_like(l).to(self.device)#*2.0 - 1.0
                 log_pi.append(p)
                 mus.append(mu)
                 locs.append(l)

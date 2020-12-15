@@ -11,8 +11,8 @@ conda create -n rl-agent --file requirements.txt
 ## Training
 
 ### Prepare training data
-download [DAVIS](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip) dataset under folder 'datasets'.
-download [estimated depth](https://drive.google.com/file/d/1YfQxVkaETAIzsdz7t5VC6OXy2DbVZnj4/view?usp=sharing) and unzip under folder 'datasets'.
+Download [DAVIS](https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-Full-Resolution.zip) dataset under folder 'datasets'.
+Download [trained model](https://github.com/google/mannequinchallenge) in CVPR 2019 paper "Learning the Depths of Moving People by Watching Frozen People" and run the DAVIS inference script. Or download[estimated depth](https://drive.google.com/file/d/1YfQxVkaETAIzsdz7t5VC6OXy2DbVZnj4/view?usp=sharing) and unzip under folder 'datasets'.
 
 ### training
 ```bash
