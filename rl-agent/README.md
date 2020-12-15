@@ -1,5 +1,5 @@
 # Reinforcement Agent
-Pytorch implementation of reinforcement agent in "Deep Learning for Camera Autofocus" by Chengyu Wang, Qian Huang, Ming Cheng, Zhan Ma and David J. Brady.
+Pytorch implementation of reinforcement agent in "Deep Learning for Camera Autofocus." by Chengyu Wang, Qian Huang, Ming Cheng, Zhan Ma and David J. Brady.
 
 ## Prerequisites
 The codebase was developed with python 3.6, pytorch 1.3.1 and cuda 9.2
